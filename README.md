@@ -28,6 +28,7 @@ Open app level `build.gradle` file and add .aar file:
        implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
        implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
        implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.3'
+       // Select exoplayer version according to the aar version
        implementation 'com.google.android.exoplayer:exoplayer-core:2.11.8'
        implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     }
