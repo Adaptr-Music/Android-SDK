@@ -7,9 +7,9 @@ Android SDK is now available in JCenter. Add it to your project by adding follow
 
 The default variant of Adaptr SDK uses 2.11.8 exoplayer version. If you require another version of exoplayer you can use different versions of the SDK mapped to different exoplayer versions, the currently avaiable versions are. 
 ```
-implementation 'com.adaptr.android:player-sdk-exo2106:0.1.3'
-implementation 'com.adaptr.android:player-sdk-exo290:0.1.3'
-implementation 'com.adaptr.android:player-sdk-exo281:0.1.3'
+implementation 'com.adaptr.android:player-sdk-exo2106:0.1.3' // Exoplayer version 2.10.6
+implementation 'com.adaptr.android:player-sdk-exo290:0.1.3' // Exoplayer version 2.9.0
+implementation 'com.adaptr.android:player-sdk-exo281:0.1.3' // Exoplayer version 2.8.1
 ```
 
 
