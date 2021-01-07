@@ -1,7 +1,19 @@
 # Android-SDK
 Android SDK releases
 
-Download one of the .aar files available [here](https://github.com/Adaptr-Music/Android-SDK/releases).
+Android SDK is now available in JCenter. Add it to your project by adding following line to your project gradle.build file
+
+```implementation 'com.adaptr.android:player-sdk:0.1.3'```
+
+The default variant of Adaptr SDK uses 2.11.8 exoplayer version. If you require another version of exoplayer you can use different versions of the SDK mapped to different exoplayer versions, the currently avaiable versions are. 
+```
+implementation 'com.adaptr.android:player-sdk-exo2106:0.1.3'
+implementation 'com.adaptr.android:player-sdk-exo290:0.1.3'
+implementation 'com.adaptr.android:player-sdk-exo281:0.1.3'
+```
+
+
+Alternatively you can also Download one of the .aar files available [here](https://github.com/Adaptr-Music/Android-SDK/releases).
 
 Open Project level build.gradle and add `flatDir{dirs 'libs'}` like below:
 
