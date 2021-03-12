@@ -1,15 +1,15 @@
 # Android-SDK
 Android SDK releases
 
-Android SDK is now available in JCenter. Add it to your project by adding following line to your project gradle.build file
+Android SDK is now available in Jitpack. Add it to your project by adding following line to your project gradle.build file
 
-```implementation 'com.adaptr.android:player-sdk:0.1.3'```
+```implementation 'com.github.Adaptr-Music.Adaptr-AndroidSDK:player-sdk:latestversion'``` [![](https://jitpack.io/v/Adaptr-Music/Adaptr-AndroidSDK.svg)](https://jitpack.io/#Adaptr-Music/Adaptr-AndroidSDK)
 
-The default variant of Adaptr SDK uses 2.11.8 exoplayer version. If you require another version of exoplayer you can use different versions of the SDK mapped to different exoplayer versions, the currently avaiable versions are. 
+The default variant of Adaptr SDK uses 2.13.1 exoplayer version. If you require another version of exoplayer you can use different versions of the SDK mapped to different exoplayer versions, the currently avaiable versions are. 
 ```
-implementation 'com.adaptr.android:player-sdk-exo2106:0.1.3' // Exoplayer version 2.10.6
-implementation 'com.adaptr.android:player-sdk-exo290:0.1.3' // Exoplayer version 2.9.0
-implementation 'com.adaptr.android:player-sdk-exo281:0.1.3' // Exoplayer version 2.8.1
+implementation 'com.github.Adaptr-Music.Adaptr-AndroidSDK:player-sdk-exo2118:0.1.6'' // Exoplayer version 2.11.8
+implementation 'com.github.Adaptr-Music.Adaptr-AndroidSDK:player-sdk-exo2106:0.1.6'' //  Exoplayer version 2.10.6 
+implementation 'com.github.Adaptr-Music.Adaptr-AndroidSDK:player-sdk-exo290:0.1.6'' // Exoplayer version 2.9.0
 ```
 
 
