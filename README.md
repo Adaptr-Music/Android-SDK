@@ -1,7 +1,7 @@
 # Android-SDK
 Android SDK releases
 
-Android SDK is now available through Jitpack. 
+Android SDK is now available through Jitpack. [![](https://jitpack.io/v/Adaptr-Music/Adaptr-AndroidSDK.svg)](https://jitpack.io/#Adaptr-Music/Adaptr-AndroidSDK)
 
 Add it in your root build.gradle at the end of repositories:
 
