@@ -1,9 +1,20 @@
 # Android-SDK
 Android SDK releases
 
-Android SDK is now available in Jitpack. Add it to your project by adding following line to your project gradle.build file
+Android SDK is now available through Jitpack. 
 
-```implementation 'com.github.Adaptr-Music.Adaptr-AndroidSDK:player-sdk:latestversion'``` [![](https://jitpack.io/v/Adaptr-Music/Adaptr-AndroidSDK.svg)](https://jitpack.io/#Adaptr-Music/Adaptr-AndroidSDK)
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+Add it to your project by adding following line to your project gradle.build file
+
+```implementation 'com.github.Adaptr-Music.Adaptr-AndroidSDK:player-sdk:version'``` [![](https://jitpack.io/v/Adaptr-Music/Adaptr-AndroidSDK.svg)](https://jitpack.io/#Adaptr-Music/Adaptr-AndroidSDK)
 
 The default variant of Adaptr SDK uses 2.13.1 exoplayer version. If you require another version of exoplayer you can use different versions of the SDK mapped to different exoplayer versions, the currently avaiable versions are. 
 ```
