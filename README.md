@@ -14,13 +14,13 @@ Add it in your root build.gradle at the end of repositories:
 
 Add it to your project by adding following line to your project gradle.build file
 
-```implementation 'com.github.Adaptr-Music.AndroidSDK:player:version'``` [![](https://jitpack.io/v/adaptr-music/AndroidSDK.svg)](https://jitpack.io/#adaptr-music/AndroidSDK)
+```implementation 'com.adaptr.AndroidSDK:player:version'``` [![](https://jitpack.io/v/adaptr-music/AndroidSDK.svg)](https://jitpack.io/#adaptr-music/AndroidSDK)
 
 The default variant of Adaptr SDK uses 2.13.1 exoplayer version. If you require another version of exoplayer you can use different versions of the SDK mapped to different exoplayer versions, the currently avaiable versions are. 
 ```
-implementation 'com.github.Adaptr-Music.AndroidSDK:player-exo2118:0.1.6'' // Exoplayer version 2.11.8
-implementation 'com.github.Adaptr-Music.AndroidSDK:player-exo2106:0.1.6'' //  Exoplayer version 2.10.6 
-implementation 'com.github.Adaptr-Music.AndroidSDK:player-exo290:0.1.6'' // Exoplayer version 2.9.0
+implementation 'com.adaptr.AndroidSDK:player-exo2118:0.1.6'' // Exoplayer version 2.11.8
+implementation 'com.adaptr.AndroidSDK:player-exo2106:0.1.6'' //  Exoplayer version 2.10.6 
+implementation 'com.adaptr.AndroidSDK:player-exo290:0.1.6'' // Exoplayer version 2.9.0
 ```
 
 
